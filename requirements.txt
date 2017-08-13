@@ -12,3 +12,7 @@ pyparsing==2.1.10
 six==1.10.0
 tensorflow
 Werkzeug
+scipy
+Pillow
+keras
+h5py
