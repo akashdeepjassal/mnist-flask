@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from scipy.misc import imread, imresize
+from scipy.misc import imsave,imread, imresize
 import numpy as np
 import keras.models
 import re
