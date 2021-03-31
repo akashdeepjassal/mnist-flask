@@ -9,7 +9,7 @@ import json
 
 batch_size = 32
 num_classes = 10
-epochs = 60
+epochs = 20
 
 # input image dimensions
 img_rows, img_cols = 28, 28
