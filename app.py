@@ -28,7 +28,7 @@ def predict():
     x = np.invert(x)
     x = imresize(x,(28,28))
 
-    # reshape image data for use in neural network
+    # reshape image data for use in neural networkk
     x = x.reshape(1,28,28,1)
     with graph.as_default():
         out = model.predict(x)
